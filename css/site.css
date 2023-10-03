@@ -16,3 +16,12 @@ main {
 footer {
     flex-shrink: 0;
 }
+
+.row-height{
+    height: 100vh;
+}
+.right{
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
