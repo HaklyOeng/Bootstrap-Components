@@ -1,0 +1,127 @@
+.main-header {
+    /* Background color/image */
+    background-color: var(--bs-primary-bg-subtle);
+    background-image: url(/img/HostingPro576.png);
+    height: 200px;
+    background-position: right top;
+    background-repeat: no-repeat;
+
+    /* Position the content */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.main-header-content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 50%;
+}
+
+.main-title {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.4rem;
+}
+
+.subtitle {
+    font-family: "Fira Sans", sans-serif;
+    margin-top: 1rem;
+    font-size: .9rem;
+    line-height: 1.1rem;
+}
+
+/* X-Small devices (portrait phones, less than 576px) 
+No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .main-header {
+        /* Background color/image */
+        background-image: url(/img/HostingPro768.png);
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .main-header {
+        /* Background colorr/image */
+        background-image: url(/img/HostingPro992.png);
+        height: 300px;
+    }
+    .main-title {
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 1.9rem;
+        line-height: 2rem;
+    }
+    
+    .subtitle {
+        font-family: "Fira Sans", sans-serif;
+        margin-top: 1rem;
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .main-header {
+        /* Background colorr/image */
+        background-image: url(/img/HostingPro1200.png);
+        height: 400px;
+    }
+    .main-title {
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 2.3rem;
+        line-height: 2.2rem;
+    }
+    
+    .subtitle {
+        font-family: "Fira Sans", sans-serif;
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        line-height: 1.7rem;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .main-header {
+        /* Background colorr/image */
+        background-image: url(/img/HostingPro2560.png);
+        height: 500px;
+    }
+    .main-title {
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 3.5rem;
+        line-height: 3.1rem;
+    }
+    
+    .subtitle {
+        font-family: "Fira Sans", sans-serif;
+        margin-top: 3rem;
+        font-size: 1.7rem;
+        line-height: 1.9rem;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .main-header {
+        /* Background colorr/image */
+        background-image: url(/img/HostingPro2560.png);
+        height: 500px;
+    }
+    .main-title {
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 4rem;
+        line-height: 3.5rem;
+    }
+    
+    .subtitle {
+        font-family: "Fira Sans", sans-serif;
+        margin-top: 3rem;
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+}
